@@ -1,2 +1,3 @@
 # co2in.github.io
-CO2IN website
+CO2IN official website
+http://co2in.org
