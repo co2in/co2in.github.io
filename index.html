@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+   <style type="text/css">
+		.pdf_reader {
+			width: 50%;
+			height: auto;
+			float: left;
+		}
+    </style>
 </head>
 <body>
-Available from February 5.
+<script>
+document.write("<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_whitepaper.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' height='"+ window.innerHeight +"' /></div>");
+document.write("<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_pitch.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' height='"+ window.innerHeight +"' /></div>");
+</script>
 </body>
 </html>
