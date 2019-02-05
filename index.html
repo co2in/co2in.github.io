@@ -4,15 +4,16 @@
    <style type="text/css">
 		.pdf_reader {
 			width: 50%;
-			height: auto;
+			height: 100vh;
 			float: left;
 		}
+    embed {
+        height: 100vh;
+    }
     </style>
 </head>
 <body>
-<script>
-document.write("<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_whitepaper.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' height='"+ window.innerHeight +"' /></div>");
-document.write("<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_pitch.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' height='"+ window.innerHeight +"' /></div>");
-</script>
+<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_whitepaper.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' /></div>
+<div class='pdf_reader'><embed src='https://co2in.github.io/co2in_pitch.pdf#toolbar=1&navpanes=1&scrollbar=1' type='application/pdf' width='100%' /></div>
 </body>
 </html>
